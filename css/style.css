@@ -1,0 +1,138 @@
+/* @import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); */
+/* Theme Name: Bootstrap.
+Theme Design: Amir Hamza Shuvo Khan.
+Theme Created By: Amir Hamza Shuvo Khan. */
+
+/* =====Common Css Code Start Here===== */
+
+body{
+    background: var(--bg-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+:root {
+    --bg-color: #fff;
+    --main-color: #f3f3f3;
+    --primary-color: #cdcdcd;
+    --secondary-color: #242424;
+    --forth-color: #fb9629;
+    --fifth-color: #fff;
+    --title-color: #292929;
+}
+
+.dark_theme {
+    --bg-color: #353535;
+    --main-color: #202020;
+    --primary-color: #424242;
+    --secondary-color: #fff;
+    --forth-color: #0081d8;
+    --fifth-color: #fff;
+    --title-color: #ffffff;
+}
+
+/* =====Common Css Code End Here===== */
+
+/* =====Calculator Head Text Css Code Start Here===== */
+
+
+
+.head_main {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--title-color);
+}
+
+.box {
+    background: var(--main-color);
+}
+
+
+.calculator input {
+    width: 100%;
+    background: var(--main-color);
+    border: none;
+    color: var(--secondary-color);
+    font-size: 35px;
+    padding: 30px;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bgg {
+    background: var(--primary-color);
+    padding: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: var(--secondary-color);
+}
+
+.bgg_two {
+    background: var(--forth-color);
+    color: var(--fifth-color);
+}
+
+.gap_clear{
+    margin-bottom: 0px !important;
+}
+
+.bgg span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 15px;
+} 
+
+
+
+.dark {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    cursor: pointer;
+}
+/* =====Calculator Toogle Css Code End Here===== */
+
+
+
